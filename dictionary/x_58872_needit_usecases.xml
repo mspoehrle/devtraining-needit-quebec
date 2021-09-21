@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="UseCases" max_length="40" name="x_58872_needit_usecases" sizeclass="3" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="UseCase ID" mandatory="true" max_length="255" name="usecase_id" type="string_full_utf8"/>
+        <element label="UseCase Name" mandatory="true" max_length="50" name="usecase_name" type="string_full_utf8"/>
+    </element>
+</database>
